@@ -26,3 +26,5 @@
 -dobranie typów danych do wartości zmiennych
 
 ## Etap 2 Ekstrakcja wszystkich opinii o produkcie z pojedynczej strony
+- 
+## Etap 3 Ekstrakcja wszystkich opinii o produkcie w wszystkich stron
