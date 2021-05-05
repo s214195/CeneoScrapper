@@ -26,5 +26,29 @@
 -dobranie typów danych do wartości zmiennych
 
 ## Etap 2 Ekstrakcja wszystkich opinii o produkcie z pojedynczej strony
-- 
+- zapis składowych pojedynczej opinii do słownika
+- zdefiniowanie listy do przechowywania wszytkich opinii o danym produkcie
+- dodanie pętli, która wykonuje operację ekstrakcji dla wszystkich opinii pobranych z pojedynczej strony
+-
 ## Etap 3 Ekstrakcja wszystkich opinii o produkcie w wszystkich stron
+- dodanie pętli, która pobiera i analizuje kolejne strony z opiniami o produkcie
+-dodanie możliwości podania kodu produktu "z klawiatury"
+-dodanie zapisu wszystkich opinii o produkcie do pliku .json
+## Etap 4 Refactoring
+- zdefiniowanie funkcji do ekstrakcji pojedynczego elementu opinii
+- przygotowanie słownika opisującego składowe opinii wraz z ich selektorami
+-tworzenie słownika reprezentującego pojedynczą opinię przy wykorzystaniu wyrażenia słownikowego
+(dictionary comperehension)
+
+## Etap 5 Analiza statystyczna zbioru opinii o produkcie
+- wyświetlenie listy produktów, dla których pobrane zostały opinie
+- wczytanie opinii o wskazanym produkcie do obiektu DataFrame
+- obliczenie podstawowych statystyk
+  - średnia ocena produktu
+  - liczba opinii o produkcie
+  - liczba opinii dla których podana została liczba zalet
+  - liczba opinii dla których podana została liczba wad
+
+## Etap 6 Rysowanie wykresów opartych o dane z pobranych opinii
+- wykres słupkowy/kolumnowy obrazujący czestość wystepowania opinii z poszczególnymi ocenami
+- wykres kołowy obrazujący udział poszczególnych rodzajów rekomendacji w zbiorze opinii
